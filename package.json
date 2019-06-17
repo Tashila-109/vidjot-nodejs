@@ -1,0 +1,27 @@
+{
+  "name": "vidjot",
+  "version": "1.0.0",
+  "description": "\"App to create video ideas\"",
+  "main": "\"app.js\"",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "env-cmd --file ./env/dev.env nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.16.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.5.14",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^9.0.3",
+    "nodemon": "^1.19.1"
+  }
+}
